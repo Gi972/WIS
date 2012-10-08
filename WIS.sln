@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WIS", "WIS\WIS.csproj", "{C3E653C4-B99A-48C5-8CAE-C759D6F204A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WIS.Tests", "WIS.Tests\WIS.Tests.csproj", "{A47F096C-8BF8-45DC-B306-BCE239D0FA9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3E653C4-B99A-48C5-8CAE-C759D6F204A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3E653C4-B99A-48C5-8CAE-C759D6F204A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3E653C4-B99A-48C5-8CAE-C759D6F204A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3E653C4-B99A-48C5-8CAE-C759D6F204A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A47F096C-8BF8-45DC-B306-BCE239D0FA9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A47F096C-8BF8-45DC-B306-BCE239D0FA9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A47F096C-8BF8-45DC-B306-BCE239D0FA9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A47F096C-8BF8-45DC-B306-BCE239D0FA9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
