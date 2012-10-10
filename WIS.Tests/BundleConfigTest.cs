@@ -98,5 +98,38 @@ namespace WIS.Tests
             BundleConfig.RegisterBundles(bundles);
             Assert.Inconclusive("Une méthode qui ne retourne pas une valeur ne peut pas être vérifiée.");
         }
+
+        /// <summary>
+        ///Test pour Constructeur BundleConfig
+        ///</summary>
+        // TODO: vérifiez que l'attribut UrlToTest spécifie une URL vers une page ASP.NET (par exemple,
+        // http://.../Default.aspx). Cela est nécessaire pour que le test unitaire soit exécuté sur le serveur Web,
+        // que vous testiez une page, un service Web ou un service WCF.
+        [TestMethod()]
+        [HostType("ASP.NET")]
+        [AspNetDevelopmentServerHost("C:\\Users\\Gi\\Documents\\GitHub\\WIS\\WIS", "/")]
+        [UrlToTest("http://localhost:12400/")]
+        public void BundleConfigConstructorTest1()
+        {
+            BundleConfig target = new BundleConfig();
+            Assert.Inconclusive("TODO: implémentez le code pour vérifier la cible");
+        }
+
+        /// <summary>
+        ///Test pour RegisterBundles
+        ///</summary>
+        // TODO: vérifiez que l'attribut UrlToTest spécifie une URL vers une page ASP.NET (par exemple,
+        // http://.../Default.aspx). Cela est nécessaire pour que le test unitaire soit exécuté sur le serveur Web,
+        // que vous testiez une page, un service Web ou un service WCF.
+        [TestMethod()]
+        [HostType("ASP.NET")]
+        [AspNetDevelopmentServerHost("C:\\Users\\Gi\\Documents\\GitHub\\WIS\\WIS", "/")]
+        [UrlToTest("http://localhost:12400/")]
+        public void RegisterBundlesTest1()
+        {
+            BundleCollection bundles = null; // TODO: initialisez à une valeur appropriée
+            BundleConfig.RegisterBundles(bundles);
+            Assert.Inconclusive("Une méthode qui ne retourne pas une valeur ne peut pas être vérifiée.");
+        }
     }
 }

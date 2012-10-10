@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6ab3efff-bc8c-4e34-9fbc-7af827ce8547" name="Gi@GIPC 2012-10-08 16:06:05" runUser="GiPC\Gi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Paramètres de test par défaut" id="3542be44-1dad-444d-a6be-1e65f23b87b7">
+    <Deployment runDeploymentRoot="Gi_GIPC 2012-10-08 16_06_05">
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\WIS\bin\WIS.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.Providers.Core.1.1\lib\net40\System.Web.Providers.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\WebGrease.1.1.0\lib\WebGrease.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\WebGrease.1.1.0\lib\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-08T16:06:05.0771485+02:00" queuing="2012-10-08T16:06:05.7402344+02:00" start="2012-10-08T16:06:06.0458985+02:00" finish="2012-10-08T16:06:33.7617188+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="IndexTest" storage="c:\users\gi\documents\github\wis\wis.tests\bin\debug\wis.tests.dll" id="de31cdd6-d545-1f3c-e142-be8a88bb1b2d">
+      <Execution id="d489557b-3238-443f-8cbf-58f82ea8c9b2" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Debug/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.HomeControllerTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IndexTest" />
+      <AspNet webSiteUrl="http://localhost:12400/">
+        <Host pathToWebApp="C:\Users\Gi\Documents\GitHub\WIS\WIS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Les résultats ne figurent pas dans une liste" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Tous les résultats chargés" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="de31cdd6-d545-1f3c-e142-be8a88bb1b2d" executionId="d489557b-3238-443f-8cbf-58f82ea8c9b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d489557b-3238-443f-8cbf-58f82ea8c9b2" testId="de31cdd6-d545-1f3c-e142-be8a88bb1b2d" testName="IndexTest" computerName="GIPC" startTime="2012-10-08T16:06:06.2187500+02:00" endTime="2012-10-08T16:06:33.4189453+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d489557b-3238-443f-8cbf-58f82ea8c9b2">
+      <Output>
+        <ErrorInfo>
+          <Message>La requête Web 'http://localhost:12400/' s'est achevée correctement sans exécuter le test. Ceci peut se produire lorsque la configuration de l'application Web pour des tests échoue (une erreur de serveur ASP.NET survient lors du traitement de la requête), ou lorsqu'aucune page ASP.NET n'est exécutée (l'URL peut pointer vers une page HTML, un service Web ou une liste de répertoires). L'exécution de tests dans ASP.NET nécessite que l'URL corresponde à une page ASP.NET, et que la page s'exécute correctement jusqu'à l'événement Load. La réponse de la requête est stockée dans le fichier 'WebRequestResponse_IndexTest.html' avec les résultats des tests ; en principe, il est possible d'ouvrir ce fichier à l'aide d'un navigateur Web afin de visualiser son contenu.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GIPC\WebRequestResponse_IndexTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+  </Results>
+</TestRun>

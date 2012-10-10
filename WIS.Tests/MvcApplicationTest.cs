@@ -98,5 +98,39 @@ namespace WIS.Tests
             target.Application_Start();
             Assert.Inconclusive("Une méthode qui ne retourne pas une valeur ne peut pas être vérifiée.");
         }
+
+        /// <summary>
+        ///Test pour Constructeur MvcApplication
+        ///</summary>
+        // TODO: vérifiez que l'attribut UrlToTest spécifie une URL vers une page ASP.NET (par exemple,
+        // http://.../Default.aspx). Cela est nécessaire pour que le test unitaire soit exécuté sur le serveur Web,
+        // que vous testiez une page, un service Web ou un service WCF.
+        [TestMethod()]
+        [HostType("ASP.NET")]
+        [AspNetDevelopmentServerHost("C:\\Users\\Gi\\Documents\\GitHub\\WIS\\WIS", "/")]
+        [UrlToTest("http://localhost:12400/")]
+        public void MvcApplicationConstructorTest1()
+        {
+            MvcApplication target = new MvcApplication();
+            Assert.Inconclusive("TODO: implémentez le code pour vérifier la cible");
+        }
+
+        /// <summary>
+        ///Test pour Application_Start
+        ///</summary>
+        // TODO: vérifiez que l'attribut UrlToTest spécifie une URL vers une page ASP.NET (par exemple,
+        // http://.../Default.aspx). Cela est nécessaire pour que le test unitaire soit exécuté sur le serveur Web,
+        // que vous testiez une page, un service Web ou un service WCF.
+        [TestMethod()]
+        [HostType("ASP.NET")]
+        [AspNetDevelopmentServerHost("C:\\Users\\Gi\\Documents\\GitHub\\WIS\\WIS", "/")]
+        [UrlToTest("http://localhost:12400/")]
+        [DeploymentItem("WIS.dll")]
+        public void Application_StartTest1()
+        {
+            MvcApplication_Accessor target = new MvcApplication_Accessor(); // TODO: initialisez à une valeur appropriée
+            target.Application_Start();
+            Assert.Inconclusive("Une méthode qui ne retourne pas une valeur ne peut pas être vérifiée.");
+        }
     }
 }

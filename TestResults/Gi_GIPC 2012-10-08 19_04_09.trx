@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0095b87e-8bde-45c2-a010-4ffe8ae96368" name="Gi@GIPC 2012-10-08 19:04:09" runUser="GiPC\Gi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Paramètres de test par défaut" id="eb9c0e71-5484-44e3-9997-b0d6a7d024d1">
+    <Deployment runDeploymentRoot="Gi_GIPC 2012-10-08 19_04_09">
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\WIS\bin\WIS.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.Providers.Core.1.1\lib\net40\System.Web.Providers.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\WebGrease.1.1.0\lib\WebGrease.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\WebGrease.1.1.0\lib\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-08T19:04:09.1660156+02:00" queuing="2012-10-08T19:04:09.9550781+02:00" start="2012-10-08T19:04:10.2558593+02:00" finish="2012-10-08T19:04:12.3271484+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="affiche_view_bag" storage="c:\users\gi\documents\github\wis\wis.tests\bin\debug\wis.tests.dll" id="1379cfb1-93d3-d70c-1f7f-9b6ce793a43b">
+      <Execution id="200cdd44-fe93-45cf-8222-3953d0d96923" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Debug/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.HomeControllerTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="affiche_view_bag" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Les résultats ne figurent pas dans une liste" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Tous les résultats chargés" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1379cfb1-93d3-d70c-1f7f-9b6ce793a43b" executionId="200cdd44-fe93-45cf-8222-3953d0d96923" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="200cdd44-fe93-45cf-8222-3953d0d96923" testId="1379cfb1-93d3-d70c-1f7f-9b6ce793a43b" testName="affiche_view_bag" computerName="GIPC" duration="00:00:00.2508653" startTime="2012-10-08T19:04:10.5205078+02:00" endTime="2012-10-08T19:04:11.3066406+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="200cdd44-fe93-45cf-8222-3953d0d96923">
+      <Output>
+        <ErrorInfo>
+          <Message>Échec de Assert.AreEqual. Attendu : &lt;page Home (System.String)&gt;, Réel : &lt;System.Web.Mvc.ViewResult (System.Web.Mvc.ViewResult)&gt;. Viewbag devrait retourner page Home</Message>
+          <StackTrace>   à WIS.Tests.HomeControllerTest.affiche_view_bag() dans C:\Users\Gi\Documents\GitHub\WIS\WIS.Tests\HomeControllerTest.cs:ligne 133
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

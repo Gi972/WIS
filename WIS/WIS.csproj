@@ -122,9 +122,30 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\BackOfficeController.cs" />
+    <Compile Include="Controllers\DicoController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProjectController.cs" />
+    <Compile Include="Controllers\SnippetController.cs" />
+    <Compile Include="DAL\Context\SiteContext.cs" />
+    <Compile Include="DAL\Repository\Dotnet\RepoPracticeDotnet.cs" />
+    <Compile Include="DAL\Repository\Dotnet\RepoProjectDotnet.cs" />
+    <Compile Include="DAL\Repository\Dotnet\RepoSnippetDotnet.cs" />
+    <Compile Include="DAL\Repository\Ruby\RepoPracticeRuby.cs" />
+    <Compile Include="DAL\Repository\Ruby\RepoProjectRuby.cs" />
+    <Compile Include="DAL\Repository\Ruby\RepoSnippetRuby.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Base\Billet.cs" />
+    <Compile Include="Models\Entity\Dotnet\PracticeDotnet.cs" />
+    <Compile Include="Models\Entity\Dotnet\ProjectDotnet.cs" />
+    <Compile Include="Models\Entity\Dotnet\SnippetDotnet.cs" />
+    <Compile Include="Models\Entity\Ruby\PracticeRuby.cs" />
+    <Compile Include="Models\Entity\Ruby\ProjectRuby.cs" />
+    <Compile Include="Models\Entity\Ruby\SnippetRuby.cs" />
+    <Compile Include="Models\Factory\Dotnet.cs" />
+    <Compile Include="Models\Factory\Ruby.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -214,11 +235,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="winweb8.ovh.net" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="webindies.net" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="True" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profil1" publishMethod="MSDeploy" replaceMatchingFiles="True" userName="MUTU\webindie" savePWD="False" userPWD="" SelectedForPublish="True" />
+</publishData>
