@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f0f5c380-5184-48b8-8bba-105f1cd612a0" name="Gi@GIPC 2012-10-10 12:29:30" runUser="GiPC\Gi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Paramètres de test par défaut" id="d73c6a9c-bae0-499d-b520-7e9575822641">
+    <Deployment runDeploymentRoot="Gi_GIPC 2012-10-10 12_29_30">
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\WIS\bin\WIS.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\WebGrease.1.1.0\lib\WebGrease.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.Providers.Core.1.1\lib\net40\System.Web.Providers.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\WebGrease.1.1.0\lib\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Users\Gi\Documents\GitHub\WIS\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-10T12:29:30.5595703+02:00" queuing="2012-10-10T12:29:32.4746093+02:00" start="2012-10-10T12:29:32.5957031+02:00" finish="2012-10-10T12:29:37.7734375+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="28" executed="28" passed="2" error="0" failed="26" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="IndexTest" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="1d514c15-4feb-5f08-c09e-24f6edad8fdd">
+      <Execution id="5daa3818-8203-45e3-924d-c3e58875bc8c" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.BackOfficeControllerTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IndexTest" />
+      <AspNet webSiteUrl="http://localhost:12400/">
+        <Host pathToWebApp="C:\Users\Gi\Documents\GitHub\WIS\WIS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="FilterConfigConstructorTest1" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="408297b2-7ad6-304c-f3a7-256384f4454e">
+      <Execution id="b1576393-23d6-4c3d-b728-d56cc04df3ff" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.FilterConfigTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FilterConfigConstructorTest1" />
+      <AspNet webSiteUrl="http://localhost:12400/">
+        <Host pathToWebApp="C:\Users\Gi\Documents\GitHub\WIS\WIS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RegisterBundlesTest" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="62ec77ec-1639-2cb0-bc17-bb545c919d5f">
+      <Execution id="ff7aec7f-3107-4ac6-8277-204deeff85d1" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.BundleConfigTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegisterBundlesTest" />
+      <AspNet webSiteUrl="http://localhost:12400/">
+        <Host pathToWebApp="C:\Users\Gi\Documents\GitHub\WIS\WIS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="MvcApplicationConstructorTest1" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="a86c18b2-7567-d014-74d2-b8fafb38b0c3">
+      <Execution id="1d3b8610-c1ba-4f96-aefb-aa0d7706ed27" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.MvcApplicationTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MvcApplicationConstructorTest1" />
+      <AspNet webSiteUrl="http://localhost:12400/">
+        <Host pathToWebApp="C:\Users\Gi\Documents\GitHub\WIS\WIS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="affiche_view_bag" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="1379cfb1-93d3-d70c-1f7f-9b6ce793a43b">
+      <Execution id="3f63f05e-5621-46e1-8f65-cadfb866cc1f" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.HomeControllerTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="affiche_view_bag" />
+    </UnitTest>
+    <UnitTest name="BackOfficeControllerConstructorTest" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="2045a5e1-222b-c6eb-84fc-75d75b0b4705">
+      <Execution id="d169a106-7157-4d17-87e5-87e87cfb1b91" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.BackOfficeControllerTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BackOfficeControllerConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:12400/">
+        <Host pathToWebApp="C:\Users\Gi\Documents\GitHub\WIS\WIS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="DicoControllerConstructorTest" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="c351138d-9da2-95cc-c121-616098169b25">
+      <Execution id="dd5de425-2b33-4e60-95f0-e43d7fe2ce57" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.DicoControllerTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DicoControllerConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:12400/">
+        <Host pathToWebApp="C:\Users\Gi\Documents\GitHub\WIS\WIS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="BundleConfigConstructorTest1" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="9108f21f-3bf8-abcb-9a97-32e5ff081001">
+      <Execution id="51ed8d26-22d1-45a0-b2ac-32735da3bc3b" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.BundleConfigTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BundleConfigConstructorTest1" />
+      <AspNet webSiteUrl="http://localhost:12400/">
+        <Host pathToWebApp="C:\Users\Gi\Documents\GitHub\WIS\WIS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RegisterBundlesTest1" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="ebc5f409-4335-6b2f-cb35-1decbaa46fbc">
+      <Execution id="6fb36129-72b5-4356-8f90-abd36fe2c99c" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.BundleConfigTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegisterBundlesTest1" />
+      <AspNet webSiteUrl="http://localhost:12400/">
+        <Host pathToWebApp="C:\Users\Gi\Documents\GitHub\WIS\WIS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RegisterRoutesTest1" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="e5854b74-fb0b-bfc4-bb29-b8f65f79ebd4">
+      <Execution id="b2ea42b4-0b91-415e-84f9-27dfae9aef9c" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.RouteConfigTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegisterRoutesTest1" />
+      <AspNet webSiteUrl="http://localhost:12400/">
+        <Host pathToWebApp="C:\Users\Gi\Documents\GitHub\WIS\WIS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="SnippetControllerConstructorTest" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="9203da80-e9af-4459-56c1-676a634e33d4">
+      <Execution id="aed9b676-70d3-4bff-898e-b14f19fa1f22" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.SnippetControllerTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SnippetControllerConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:12400/">
+        <Host pathToWebApp="C:\Users\Gi\Documents\GitHub\WIS\WIS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RouteConfigConstructorTest" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="c790b5f3-181a-1308-6c27-1f3c8f7db761">
+      <Execution id="0a2dbbd3-6a10-4698-aa04-e90f1716cec7" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.RouteConfigTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RouteConfigConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:12400/">
+        <Host pathToWebApp="C:\Users\Gi\Documents\GitHub\WIS\WIS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ProjectControllerConstructorTest" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="555091af-45d4-2ea9-eb96-a5c576b9bd2f">
+      <Execution id="a457f0c0-6566-4fc4-8020-ccf585033eac" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.ProjectControllerTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ProjectControllerConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:12400/">
+        <Host pathToWebApp="C:\Users\Gi\Documents\GitHub\WIS\WIS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="IndexTest" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="0d7e7365-287e-194a-9ade-a36db144f9ae">
+      <Execution id="19514fc6-743e-4162-8b68-a49ec7863f41" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.SnippetControllerTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IndexTest" />
+      <AspNet webSiteUrl="http://localhost:12400/">
+        <Host pathToWebApp="C:\Users\Gi\Documents\GitHub\WIS\WIS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="IndexTest" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="9c0e1e24-b31c-9081-44c1-4cc1b240e865">
+      <Execution id="f278a090-0472-453a-8b21-747f34b966cc" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.ProjectControllerTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IndexTest" />
+      <AspNet webSiteUrl="http://localhost:12400/">
+        <Host pathToWebApp="C:\Users\Gi\Documents\GitHub\WIS\WIS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="MvcApplicationConstructorTest" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="e06b7ae4-0c67-885b-94da-be17dcd7e16b">
+      <Execution id="bad8dc7c-5dea-43ca-9cfb-075a3183eb17" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.MvcApplicationTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MvcApplicationConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:12400/">
+        <Host pathToWebApp="C:\Users\Gi\Documents\GitHub\WIS\WIS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RegisterTest" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="b5d9c583-fac5-ad61-b918-bade7c3edbb5">
+      <Execution id="9f33d91c-2875-45ea-b2b5-6c317d20136c" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.WebApiConfigTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegisterTest" />
+      <AspNet webSiteUrl="http://localhost:12400/">
+        <Host pathToWebApp="C:\Users\Gi\Documents\GitHub\WIS\WIS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="Application_StartTest1" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="6667ec04-db28-cbc3-3fa3-ddec14dfbb4e">
+      <DeploymentItems>
+        <DeploymentItem filename="WIS.dll" />
+      </DeploymentItems>
+      <Execution id="2860fdef-f314-4fdf-97da-49efaae96262" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.MvcApplicationTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Application_StartTest1" />
+      <AspNet webSiteUrl="http://localhost:12400/">
+        <Host pathToWebApp="C:\Users\Gi\Documents\GitHub\WIS\WIS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RegisterGlobalFiltersTest1" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="99e376d3-fde9-9b8d-5ae8-2aeff37e7cba">
+      <Execution id="3e8d3e93-99b8-45ec-9966-cdbf9c85aed7" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.FilterConfigTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegisterGlobalFiltersTest1" />
+      <AspNet webSiteUrl="http://localhost:12400/">
+        <Host pathToWebApp="C:\Users\Gi\Documents\GitHub\WIS\WIS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="Default_Action_Returns_Index_View" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="dee595a6-02a5-dc96-34db-4c0136c532db">
+      <Execution id="7597bb86-e3c5-4443-8471-8757c49e9eb6" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.HomeControllerTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Default_Action_Returns_Index_View" />
+    </UnitTest>
+    <UnitTest name="BundleConfigConstructorTest" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="30c1c70c-aacc-4875-07e6-db26ca7f6507">
+      <Execution id="78126a7a-d05d-4b88-a058-61d06b60877c" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.BundleConfigTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BundleConfigConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:12400/">
+        <Host pathToWebApp="C:\Users\Gi\Documents\GitHub\WIS\WIS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="FilterConfigConstructorTest" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="30459352-ff14-b300-82c8-af7075c9461a">
+      <Execution id="9ae8bbb1-e671-44d3-a915-b6786bf1fa11" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.FilterConfigTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FilterConfigConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:12400/">
+        <Host pathToWebApp="C:\Users\Gi\Documents\GitHub\WIS\WIS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="Application_StartTest" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="f9ec6ea5-5e41-a566-8469-6a8e50b78a57">
+      <DeploymentItems>
+        <DeploymentItem filename="WIS.dll" />
+      </DeploymentItems>
+      <Execution id="3f2acb65-7c34-4be0-b11e-7fdbf766730f" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.MvcApplicationTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Application_StartTest" />
+      <AspNet webSiteUrl="http://localhost:12400/">
+        <Host pathToWebApp="C:\Users\Gi\Documents\GitHub\WIS\WIS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RegisterTest1" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="da2bb424-a18a-c854-03b7-6410d4cd3a66">
+      <Execution id="0e911227-aa90-4b4f-a163-9abfb148acb9" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.WebApiConfigTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegisterTest1" />
+      <AspNet webSiteUrl="http://localhost:12400/">
+        <Host pathToWebApp="C:\Users\Gi\Documents\GitHub\WIS\WIS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RegisterGlobalFiltersTest" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="89498477-b8cd-42e8-d301-98e465df7fee">
+      <Execution id="ee1bd8a8-8184-439b-97e5-6499334430cb" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.FilterConfigTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegisterGlobalFiltersTest" />
+      <AspNet webSiteUrl="http://localhost:12400/">
+        <Host pathToWebApp="C:\Users\Gi\Documents\GitHub\WIS\WIS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RouteConfigConstructorTest1" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="36924d67-f5ef-8fc8-82f7-0ea333df6309">
+      <Execution id="5fa189a2-05b5-43b8-bc01-246c4ac45cd3" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.RouteConfigTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RouteConfigConstructorTest1" />
+      <AspNet webSiteUrl="http://localhost:12400/">
+        <Host pathToWebApp="C:\Users\Gi\Documents\GitHub\WIS\WIS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="RegisterRoutesTest" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="bfa22de5-f5a2-a767-943c-96e9b5b88633">
+      <Execution id="61fb1b9e-8153-421b-a2ac-7750bce20983" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.RouteConfigTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegisterRoutesTest" />
+      <AspNet webSiteUrl="http://localhost:12400/">
+        <Host pathToWebApp="C:\Users\Gi\Documents\GitHub\WIS\WIS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="IndexTest" storage="c:\users\gi\documents\github\wis\wis.tests\bin\release\wis.tests.dll" id="11b299ff-ecc6-5dd3-792a-1f0566606dae">
+      <Execution id="a5eac599-3c8c-4848-b259-1c64de34d53e" />
+      <TestMethod codeBase="C:/Users/Gi/Documents/GitHub/WIS/WIS.Tests/bin/Release/WIS.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WIS.Tests.DicoControllerTest, WIS.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IndexTest" />
+      <AspNet webSiteUrl="http://localhost:12400/">
+        <Host pathToWebApp="C:\Users\Gi\Documents\GitHub\WIS\WIS" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Les résultats ne figurent pas dans une liste" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Tous les résultats chargés" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0d7e7365-287e-194a-9ade-a36db144f9ae" executionId="19514fc6-743e-4162-8b68-a49ec7863f41" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11b299ff-ecc6-5dd3-792a-1f0566606dae" executionId="a5eac599-3c8c-4848-b259-1c64de34d53e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1379cfb1-93d3-d70c-1f7f-9b6ce793a43b" executionId="3f63f05e-5621-46e1-8f65-cadfb866cc1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d514c15-4feb-5f08-c09e-24f6edad8fdd" executionId="5daa3818-8203-45e3-924d-c3e58875bc8c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2045a5e1-222b-c6eb-84fc-75d75b0b4705" executionId="d169a106-7157-4d17-87e5-87e87cfb1b91" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="30459352-ff14-b300-82c8-af7075c9461a" executionId="9ae8bbb1-e671-44d3-a915-b6786bf1fa11" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="30c1c70c-aacc-4875-07e6-db26ca7f6507" executionId="78126a7a-d05d-4b88-a058-61d06b60877c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="36924d67-f5ef-8fc8-82f7-0ea333df6309" executionId="5fa189a2-05b5-43b8-bc01-246c4ac45cd3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="408297b2-7ad6-304c-f3a7-256384f4454e" executionId="b1576393-23d6-4c3d-b728-d56cc04df3ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="555091af-45d4-2ea9-eb96-a5c576b9bd2f" executionId="a457f0c0-6566-4fc4-8020-ccf585033eac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="62ec77ec-1639-2cb0-bc17-bb545c919d5f" executionId="ff7aec7f-3107-4ac6-8277-204deeff85d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6667ec04-db28-cbc3-3fa3-ddec14dfbb4e" executionId="2860fdef-f314-4fdf-97da-49efaae96262" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89498477-b8cd-42e8-d301-98e465df7fee" executionId="ee1bd8a8-8184-439b-97e5-6499334430cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9108f21f-3bf8-abcb-9a97-32e5ff081001" executionId="51ed8d26-22d1-45a0-b2ac-32735da3bc3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9203da80-e9af-4459-56c1-676a634e33d4" executionId="aed9b676-70d3-4bff-898e-b14f19fa1f22" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99e376d3-fde9-9b8d-5ae8-2aeff37e7cba" executionId="3e8d3e93-99b8-45ec-9966-cdbf9c85aed7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c0e1e24-b31c-9081-44c1-4cc1b240e865" executionId="f278a090-0472-453a-8b21-747f34b966cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a86c18b2-7567-d014-74d2-b8fafb38b0c3" executionId="1d3b8610-c1ba-4f96-aefb-aa0d7706ed27" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5d9c583-fac5-ad61-b918-bade7c3edbb5" executionId="9f33d91c-2875-45ea-b2b5-6c317d20136c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bfa22de5-f5a2-a767-943c-96e9b5b88633" executionId="61fb1b9e-8153-421b-a2ac-7750bce20983" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c351138d-9da2-95cc-c121-616098169b25" executionId="dd5de425-2b33-4e60-95f0-e43d7fe2ce57" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c790b5f3-181a-1308-6c27-1f3c8f7db761" executionId="0a2dbbd3-6a10-4698-aa04-e90f1716cec7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da2bb424-a18a-c854-03b7-6410d4cd3a66" executionId="0e911227-aa90-4b4f-a163-9abfb148acb9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dee595a6-02a5-dc96-34db-4c0136c532db" executionId="7597bb86-e3c5-4443-8471-8757c49e9eb6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e06b7ae4-0c67-885b-94da-be17dcd7e16b" executionId="bad8dc7c-5dea-43ca-9cfb-075a3183eb17" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e5854b74-fb0b-bfc4-bb29-b8f65f79ebd4" executionId="b2ea42b4-0b91-415e-84f9-27dfae9aef9c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ebc5f409-4335-6b2f-cb35-1decbaa46fbc" executionId="6fb36129-72b5-4356-8f90-abd36fe2c99c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f9ec6ea5-5e41-a566-8469-6a8e50b78a57" executionId="3f2acb65-7c34-4be0-b11e-7fdbf766730f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="19514fc6-743e-4162-8b68-a49ec7863f41" testId="0d7e7365-287e-194a-9ade-a36db144f9ae" testName="IndexTest" computerName="GIPC" startTime="2012-10-10T12:29:33.7167968+02:00" endTime="2012-10-10T12:29:36.0185547+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19514fc6-743e-4162-8b68-a49ec7863f41">
+      <Output>
+        <ErrorInfo>
+          <Message>La requête Web 'http://localhost:12400/' s'est achevée correctement sans exécuter le test. Ceci peut se produire lorsque la configuration de l'application Web pour des tests échoue (une erreur de serveur ASP.NET survient lors du traitement de la requête), ou lorsqu'aucune page ASP.NET n'est exécutée (l'URL peut pointer vers une page HTML, un service Web ou une liste de répertoires). L'exécution de tests dans ASP.NET nécessite que l'URL corresponde à une page ASP.NET, et que la page s'exécute correctement jusqu'à l'événement Load. La réponse de la requête est stockée dans le fichier 'WebRequestResponse_IndexTest.html' avec les résultats des tests ; en principe, il est possible d'ouvrir ce fichier à l'aide d'un navigateur Web afin de visualiser son contenu.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GIPC\WebRequestResponse_IndexTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="a5eac599-3c8c-4848-b259-1c64de34d53e" testId="11b299ff-ecc6-5dd3-792a-1f0566606dae" testName="IndexTest" computerName="GIPC" startTime="2012-10-10T12:29:36.0234375+02:00" endTime="2012-10-10T12:29:36.0371093+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5eac599-3c8c-4848-b259-1c64de34d53e">
+      <Output>
+        <ErrorInfo>
+          <Message>La requête Web 'http://localhost:12400/' s'est achevée correctement sans exécuter le test. Ceci peut se produire lorsque la configuration de l'application Web pour des tests échoue (une erreur de serveur ASP.NET survient lors du traitement de la requête), ou lorsqu'aucune page ASP.NET n'est exécutée (l'URL peut pointer vers une page HTML, un service Web ou une liste de répertoires). L'exécution de tests dans ASP.NET nécessite que l'URL corresponde à une page ASP.NET, et que la page s'exécute correctement jusqu'à l'événement Load. La réponse de la requête est stockée dans le fichier 'WebRequestResponse_IndexTest.html' avec les résultats des tests ; en principe, il est possible d'ouvrir ce fichier à l'aide d'un navigateur Web afin de visualiser son contenu.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GIPC\WebRequestResponse_IndexTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="3f63f05e-5621-46e1-8f65-cadfb866cc1f" testId="1379cfb1-93d3-d70c-1f7f-9b6ce793a43b" testName="affiche_view_bag" computerName="GIPC" duration="00:00:00.3860173" startTime="2012-10-10T12:29:36.0693359+02:00" endTime="2012-10-10T12:29:36.7841797+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f63f05e-5621-46e1-8f65-cadfb866cc1f">
+    </UnitTestResult>
+    <UnitTestResult executionId="5daa3818-8203-45e3-924d-c3e58875bc8c" testId="1d514c15-4feb-5f08-c09e-24f6edad8fdd" testName="IndexTest" computerName="GIPC" startTime="2012-10-10T12:29:36.7910156+02:00" endTime="2012-10-10T12:29:36.8066406+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5daa3818-8203-45e3-924d-c3e58875bc8c">
+      <Output>
+        <ErrorInfo>
+          <Message>La requête Web 'http://localhost:12400/' s'est achevée correctement sans exécuter le test. Ceci peut se produire lorsque la configuration de l'application Web pour des tests échoue (une erreur de serveur ASP.NET survient lors du traitement de la requête), ou lorsqu'aucune page ASP.NET n'est exécutée (l'URL peut pointer vers une page HTML, un service Web ou une liste de répertoires). L'exécution de tests dans ASP.NET nécessite que l'URL corresponde à une page ASP.NET, et que la page s'exécute correctement jusqu'à l'événement Load. La réponse de la requête est stockée dans le fichier 'WebRequestResponse_IndexTest.html' avec les résultats des tests ; en principe, il est possible d'ouvrir ce fichier à l'aide d'un navigateur Web afin de visualiser son contenu.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GIPC\WebRequestResponse_IndexTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="d169a106-7157-4d17-87e5-87e87cfb1b91" testId="2045a5e1-222b-c6eb-84fc-75d75b0b4705" testName="BackOfficeControllerConstructorTest" computerName="GIPC" startTime="2012-10-10T12:29:36.8164062+02:00" endTime="2012-10-10T12:29:36.8281250+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d169a106-7157-4d17-87e5-87e87cfb1b91">
+      <Output>
+        <ErrorInfo>
+          <Message>La requête Web 'http://localhost:12400/' s'est achevée correctement sans exécuter le test. Ceci peut se produire lorsque la configuration de l'application Web pour des tests échoue (une erreur de serveur ASP.NET survient lors du traitement de la requête), ou lorsqu'aucune page ASP.NET n'est exécutée (l'URL peut pointer vers une page HTML, un service Web ou une liste de répertoires). L'exécution de tests dans ASP.NET nécessite que l'URL corresponde à une page ASP.NET, et que la page s'exécute correctement jusqu'à l'événement Load. La réponse de la requête est stockée dans le fichier 'WebRequestResponse_BackOfficeController.html' avec les résultats des tests ; en principe, il est possible d'ouvrir ce fichier à l'aide d'un navigateur Web afin de visualiser son contenu.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GIPC\WebRequestResponse_BackOfficeController.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="9ae8bbb1-e671-44d3-a915-b6786bf1fa11" testId="30459352-ff14-b300-82c8-af7075c9461a" testName="FilterConfigConstructorTest" computerName="GIPC" startTime="2012-10-10T12:29:36.8369140+02:00" endTime="2012-10-10T12:29:36.8486328+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9ae8bbb1-e671-44d3-a915-b6786bf1fa11">
+      <Output>
+        <ErrorInfo>
+          <Message>La requête Web 'http://localhost:12400/' s'est achevée correctement sans exécuter le test. Ceci peut se produire lorsque la configuration de l'application Web pour des tests échoue (une erreur de serveur ASP.NET survient lors du traitement de la requête), ou lorsqu'aucune page ASP.NET n'est exécutée (l'URL peut pointer vers une page HTML, un service Web ou une liste de répertoires). L'exécution de tests dans ASP.NET nécessite que l'URL corresponde à une page ASP.NET, et que la page s'exécute correctement jusqu'à l'événement Load. La réponse de la requête est stockée dans le fichier 'WebRequestResponse_FilterConfigConstruc.html' avec les résultats des tests ; en principe, il est possible d'ouvrir ce fichier à l'aide d'un navigateur Web afin de visualiser son contenu.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GIPC\WebRequestResponse_FilterConfigConstruc.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="78126a7a-d05d-4b88-a058-61d06b60877c" testId="30c1c70c-aacc-4875-07e6-db26ca7f6507" testName="BundleConfigConstructorTest" computerName="GIPC" startTime="2012-10-10T12:29:36.8564453+02:00" endTime="2012-10-10T12:29:36.8681640+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78126a7a-d05d-4b88-a058-61d06b60877c">
+      <Output>
+        <ErrorInfo>
+          <Message>La requête Web 'http://localhost:12400/' s'est achevée correctement sans exécuter le test. Ceci peut se produire lorsque la configuration de l'application Web pour des tests échoue (une erreur de serveur ASP.NET survient lors du traitement de la requête), ou lorsqu'aucune page ASP.NET n'est exécutée (l'URL peut pointer vers une page HTML, un service Web ou une liste de répertoires). L'exécution de tests dans ASP.NET nécessite que l'URL corresponde à une page ASP.NET, et que la page s'exécute correctement jusqu'à l'événement Load. La réponse de la requête est stockée dans le fichier 'WebRequestResponse_BundleConfigConstruc.html' avec les résultats des tests ; en principe, il est possible d'ouvrir ce fichier à l'aide d'un navigateur Web afin de visualiser son contenu.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GIPC\WebRequestResponse_BundleConfigConstruc.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="5fa189a2-05b5-43b8-bc01-246c4ac45cd3" testId="36924d67-f5ef-8fc8-82f7-0ea333df6309" testName="RouteConfigConstructorTest1" computerName="GIPC" startTime="2012-10-10T12:29:36.8750000+02:00" endTime="2012-10-10T12:29:36.8857422+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5fa189a2-05b5-43b8-bc01-246c4ac45cd3">
+      <Output>
+        <ErrorInfo>
+          <Message>La requête Web 'http://localhost:12400/' s'est achevée correctement sans exécuter le test. Ceci peut se produire lorsque la configuration de l'application Web pour des tests échoue (une erreur de serveur ASP.NET survient lors du traitement de la requête), ou lorsqu'aucune page ASP.NET n'est exécutée (l'URL peut pointer vers une page HTML, un service Web ou une liste de répertoires). L'exécution de tests dans ASP.NET nécessite que l'URL corresponde à une page ASP.NET, et que la page s'exécute correctement jusqu'à l'événement Load. La réponse de la requête est stockée dans le fichier 'WebRequestResponse_RouteConfigConstruct.html' avec les résultats des tests ; en principe, il est possible d'ouvrir ce fichier à l'aide d'un navigateur Web afin de visualiser son contenu.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GIPC\WebRequestResponse_RouteConfigConstruct.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="b1576393-23d6-4c3d-b728-d56cc04df3ff" testId="408297b2-7ad6-304c-f3a7-256384f4454e" testName="FilterConfigConstructorTest1" computerName="GIPC" startTime="2012-10-10T12:29:36.8925781+02:00" endTime="2012-10-10T12:29:36.9052734+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1576393-23d6-4c3d-b728-d56cc04df3ff">
+      <Output>
+        <ErrorInfo>
+          <Message>La requête Web 'http://localhost:12400/' s'est achevée correctement sans exécuter le test. Ceci peut se produire lorsque la configuration de l'application Web pour des tests échoue (une erreur de serveur ASP.NET survient lors du traitement de la requête), ou lorsqu'aucune page ASP.NET n'est exécutée (l'URL peut pointer vers une page HTML, un service Web ou une liste de répertoires). L'exécution de tests dans ASP.NET nécessite que l'URL corresponde à une page ASP.NET, et que la page s'exécute correctement jusqu'à l'événement Load. La réponse de la requête est stockée dans le fichier 'WebRequestResponse_FilterConfigConstruc.html' avec les résultats des tests ; en principe, il est possible d'ouvrir ce fichier à l'aide d'un navigateur Web afin de visualiser son contenu.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GIPC\WebRequestResponse_FilterConfigConstruc.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="a457f0c0-6566-4fc4-8020-ccf585033eac" testId="555091af-45d4-2ea9-eb96-a5c576b9bd2f" testName="ProjectControllerConstructorTest" computerName="GIPC" startTime="2012-10-10T12:29:36.9169922+02:00" endTime="2012-10-10T12:29:36.9335937+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a457f0c0-6566-4fc4-8020-ccf585033eac">
+      <Output>
+        <ErrorInfo>
+          <Message>La requête Web 'http://localhost:12400/' s'est achevée correctement sans exécuter le test. Ceci peut se produire lorsque la configuration de l'application Web pour des tests échoue (une erreur de serveur ASP.NET survient lors du traitement de la requête), ou lorsqu'aucune page ASP.NET n'est exécutée (l'URL peut pointer vers une page HTML, un service Web ou une liste de répertoires). L'exécution de tests dans ASP.NET nécessite que l'URL corresponde à une page ASP.NET, et que la page s'exécute correctement jusqu'à l'événement Load. La réponse de la requête est stockée dans le fichier 'WebRequestResponse_ProjectControllerCon.html' avec les résultats des tests ; en principe, il est possible d'ouvrir ce fichier à l'aide d'un navigateur Web afin de visualiser son contenu.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GIPC\WebRequestResponse_ProjectControllerCon.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="ff7aec7f-3107-4ac6-8277-204deeff85d1" testId="62ec77ec-1639-2cb0-bc17-bb545c919d5f" testName="RegisterBundlesTest" computerName="GIPC" startTime="2012-10-10T12:29:36.9365234+02:00" endTime="2012-10-10T12:29:36.9531250+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff7aec7f-3107-4ac6-8277-204deeff85d1">
+      <Output>
+        <ErrorInfo>
+          <Message>La requête Web 'http://localhost:12400/' s'est achevée correctement sans exécuter le test. Ceci peut se produire lorsque la configuration de l'application Web pour des tests échoue (une erreur de serveur ASP.NET survient lors du traitement de la requête), ou lorsqu'aucune page ASP.NET n'est exécutée (l'URL peut pointer vers une page HTML, un service Web ou une liste de répertoires). L'exécution de tests dans ASP.NET nécessite que l'URL corresponde à une page ASP.NET, et que la page s'exécute correctement jusqu'à l'événement Load. La réponse de la requête est stockée dans le fichier 'WebRequestResponse_RegisterBundlesTest.html' avec les résultats des tests ; en principe, il est possible d'ouvrir ce fichier à l'aide d'un navigateur Web afin de visualiser son contenu.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GIPC\WebRequestResponse_RegisterBundlesTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="2860fdef-f314-4fdf-97da-49efaae96262" testId="6667ec04-db28-cbc3-3fa3-ddec14dfbb4e" testName="Application_StartTest1" computerName="GIPC" startTime="2012-10-10T12:29:36.9619140+02:00" endTime="2012-10-10T12:29:36.9736328+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2860fdef-f314-4fdf-97da-49efaae96262">
+      <Output>
+        <ErrorInfo>
+          <Message>La requête Web 'http://localhost:12400/' s'est achevée correctement sans exécuter le test. Ceci peut se produire lorsque la configuration de l'application Web pour des tests échoue (une erreur de serveur ASP.NET survient lors du traitement de la requête), ou lorsqu'aucune page ASP.NET n'est exécutée (l'URL peut pointer vers une page HTML, un service Web ou une liste de répertoires). L'exécution de tests dans ASP.NET nécessite que l'URL corresponde à une page ASP.NET, et que la page s'exécute correctement jusqu'à l'événement Load. La réponse de la requête est stockée dans le fichier 'WebRequestResponse_Application_StartTes.html' avec les résultats des tests ; en principe, il est possible d'ouvrir ce fichier à l'aide d'un navigateur Web afin de visualiser son contenu.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GIPC\WebRequestResponse_Application_StartTes.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="ee1bd8a8-8184-439b-97e5-6499334430cb" testId="89498477-b8cd-42e8-d301-98e465df7fee" testName="RegisterGlobalFiltersTest" computerName="GIPC" startTime="2012-10-10T12:29:36.9824218+02:00" endTime="2012-10-10T12:29:37.0000000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee1bd8a8-8184-439b-97e5-6499334430cb">
+      <Output>
+        <ErrorInfo>
+          <Message>La requête Web 'http://localhost:12400/' s'est achevée correctement sans exécuter le test. Ceci peut se produire lorsque la configuration de l'application Web pour des tests échoue (une erreur de serveur ASP.NET survient lors du traitement de la requête), ou lorsqu'aucune page ASP.NET n'est exécutée (l'URL peut pointer vers une page HTML, un service Web ou une liste de répertoires). L'exécution de tests dans ASP.NET nécessite que l'URL corresponde à une page ASP.NET, et que la page s'exécute correctement jusqu'à l'événement Load. La réponse de la requête est stockée dans le fichier 'WebRequestResponse_RegisterGlobalFilter.html' avec les résultats des tests ; en principe, il est possible d'ouvrir ce fichier à l'aide d'un navigateur Web afin de visualiser son contenu.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GIPC\WebRequestResponse_RegisterGlobalFilter.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="51ed8d26-22d1-45a0-b2ac-32735da3bc3b" testId="9108f21f-3bf8-abcb-9a97-32e5ff081001" testName="BundleConfigConstructorTest1" computerName="GIPC" startTime="2012-10-10T12:29:37.0078125+02:00" endTime="2012-10-10T12:29:37.0234375+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="51ed8d26-22d1-45a0-b2ac-32735da3bc3b">
+      <Output>
+        <ErrorInfo>
+          <Message>La requête Web 'http://localhost:12400/' s'est achevée correctement sans exécuter le test. Ceci peut se produire lorsque la configuration de l'application Web pour des tests échoue (une erreur de serveur ASP.NET survient lors du traitement de la requête), ou lorsqu'aucune page ASP.NET n'est exécutée (l'URL peut pointer vers une page HTML, un service Web ou une liste de répertoires). L'exécution de tests dans ASP.NET nécessite que l'URL corresponde à une page ASP.NET, et que la page s'exécute correctement jusqu'à l'événement Load. La réponse de la requête est stockée dans le fichier 'WebRequestResponse_BundleConfigConstruc.html' avec les résultats des tests ; en principe, il est possible d'ouvrir ce fichier à l'aide d'un navigateur Web afin de visualiser son contenu.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GIPC\WebRequestResponse_BundleConfigConstruc.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="aed9b676-70d3-4bff-898e-b14f19fa1f22" testId="9203da80-e9af-4459-56c1-676a634e33d4" testName="SnippetControllerConstructorTest" computerName="GIPC" startTime="2012-10-10T12:29:37.0322265+02:00" endTime="2012-10-10T12:29:37.0429687+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aed9b676-70d3-4bff-898e-b14f19fa1f22">
+      <Output>
+        <ErrorInfo>
+          <Message>La requête Web 'http://localhost:12400/' s'est achevée correctement sans exécuter le test. Ceci peut se produire lorsque la configuration de l'application Web pour des tests échoue (une erreur de serveur ASP.NET survient lors du traitement de la requête), ou lorsqu'aucune page ASP.NET n'est exécutée (l'URL peut pointer vers une page HTML, un service Web ou une liste de répertoires). L'exécution de tests dans ASP.NET nécessite que l'URL corresponde à une page ASP.NET, et que la page s'exécute correctement jusqu'à l'événement Load. La réponse de la requête est stockée dans le fichier 'WebRequestResponse_SnippetControllerCon.html' avec les résultats des tests ; en principe, il est possible d'ouvrir ce fichier à l'aide d'un navigateur Web afin de visualiser son contenu.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GIPC\WebRequestResponse_SnippetControllerCon.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="3e8d3e93-99b8-45ec-9966-cdbf9c85aed7" testId="99e376d3-fde9-9b8d-5ae8-2aeff37e7cba" testName="RegisterGlobalFiltersTest1" computerName="GIPC" startTime="2012-10-10T12:29:37.0527343+02:00" endTime="2012-10-10T12:29:37.0654297+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e8d3e93-99b8-45ec-9966-cdbf9c85aed7">
+      <Output>
+        <ErrorInfo>
+          <Message>La requête Web 'http://localhost:12400/' s'est achevée correctement sans exécuter le test. Ceci peut se produire lorsque la configuration de l'application Web pour des tests échoue (une erreur de serveur ASP.NET survient lors du traitement de la requête), ou lorsqu'aucune page ASP.NET n'est exécutée (l'URL peut pointer vers une page HTML, un service Web ou une liste de répertoires). L'exécution de tests dans ASP.NET nécessite que l'URL corresponde à une page ASP.NET, et que la page s'exécute correctement jusqu'à l'événement Load. La réponse de la requête est stockée dans le fichier 'WebRequestResponse_RegisterGlobalFilter.html' avec les résultats des tests ; en principe, il est possible d'ouvrir ce fichier à l'aide d'un navigateur Web afin de visualiser son contenu.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GIPC\WebRequestResponse_RegisterGlobalFilter.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="f278a090-0472-453a-8b21-747f34b966cc" testId="9c0e1e24-b31c-9081-44c1-4cc1b240e865" testName="IndexTest" computerName="GIPC" startTime="2012-10-10T12:29:37.0722656+02:00" endTime="2012-10-10T12:29:37.0839843+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f278a090-0472-453a-8b21-747f34b966cc">
+      <Output>
+        <ErrorInfo>
+          <Message>La requête Web 'http://localhost:12400/' s'est achevée correctement sans exécuter le test. Ceci peut se produire lorsque la configuration de l'application Web pour des tests échoue (une erreur de serveur ASP.NET survient lors du traitement de la requête), ou lorsqu'aucune page ASP.NET n'est exécutée (l'URL peut pointer vers une page HTML, un service Web ou une liste de répertoires). L'exécution de tests dans ASP.NET nécessite que l'URL corresponde à une page ASP.NET, et que la page s'exécute correctement jusqu'à l'événement Load. La réponse de la requête est stockée dans le fichier 'WebRequestResponse_IndexTest.html' avec les résultats des tests ; en principe, il est possible d'ouvrir ce fichier à l'aide d'un navigateur Web afin de visualiser son contenu.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GIPC\WebRequestResponse_IndexTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="1d3b8610-c1ba-4f96-aefb-aa0d7706ed27" testId="a86c18b2-7567-d014-74d2-b8fafb38b0c3" testName="MvcApplicationConstructorTest1" computerName="GIPC" startTime="2012-10-10T12:29:37.0917968+02:00" endTime="2012-10-10T12:29:37.1035156+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1d3b8610-c1ba-4f96-aefb-aa0d7706ed27">
+      <Output>
+        <ErrorInfo>
+          <Message>La requête Web 'http://localhost:12400/' s'est achevée correctement sans exécuter le test. Ceci peut se produire lorsque la configuration de l'application Web pour des tests échoue (une erreur de serveur ASP.NET survient lors du traitement de la requête), ou lorsqu'aucune page ASP.NET n'est exécutée (l'URL peut pointer vers une page HTML, un service Web ou une liste de répertoires). L'exécution de tests dans ASP.NET nécessite que l'URL corresponde à une page ASP.NET, et que la page s'exécute correctement jusqu'à l'événement Load. La réponse de la requête est stockée dans le fichier 'WebRequestResponse_MvcApplicationConstr.html' avec les résultats des tests ; en principe, il est possible d'ouvrir ce fichier à l'aide d'un navigateur Web afin de visualiser son contenu.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GIPC\WebRequestResponse_MvcApplicationConstr.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="9f33d91c-2875-45ea-b2b5-6c317d20136c" testId="b5d9c583-fac5-ad61-b918-bade7c3edbb5" testName="RegisterTest" computerName="GIPC" startTime="2012-10-10T12:29:37.1123047+02:00" endTime="2012-10-10T12:29:37.1240234+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f33d91c-2875-45ea-b2b5-6c317d20136c">
+      <Output>
+        <ErrorInfo>
+          <Message>La requête Web 'http://localhost:12400/' s'est achevée correctement sans exécuter le test. Ceci peut se produire lorsque la configuration de l'application Web pour des tests échoue (une erreur de serveur ASP.NET survient lors du traitement de la requête), ou lorsqu'aucune page ASP.NET n'est exécutée (l'URL peut pointer vers une page HTML, un service Web ou une liste de répertoires). L'exécution de tests dans ASP.NET nécessite que l'URL corresponde à une page ASP.NET, et que la page s'exécute correctement jusqu'à l'événement Load. La réponse de la requête est stockée dans le fichier 'WebRequestResponse_RegisterTest.html' avec les résultats des tests ; en principe, il est possible d'ouvrir ce fichier à l'aide d'un navigateur Web afin de visualiser son contenu.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GIPC\WebRequestResponse_RegisterTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="61fb1b9e-8153-421b-a2ac-7750bce20983" testId="bfa22de5-f5a2-a767-943c-96e9b5b88633" testName="RegisterRoutesTest" computerName="GIPC" startTime="2012-10-10T12:29:37.1318359+02:00" endTime="2012-10-10T12:29:37.1416015+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61fb1b9e-8153-421b-a2ac-7750bce20983">
+      <Output>
+        <ErrorInfo>
+          <Message>La requête Web 'http://localhost:12400/' s'est achevée correctement sans exécuter le test. Ceci peut se produire lorsque la configuration de l'application Web pour des tests échoue (une erreur de serveur ASP.NET survient lors du traitement de la requête), ou lorsqu'aucune page ASP.NET n'est exécutée (l'URL peut pointer vers une page HTML, un service Web ou une liste de répertoires). L'exécution de tests dans ASP.NET nécessite que l'URL corresponde à une page ASP.NET, et que la page s'exécute correctement jusqu'à l'événement Load. La réponse de la requête est stockée dans le fichier 'WebRequestResponse_RegisterRoutesTest.html' avec les résultats des tests ; en principe, il est possible d'ouvrir ce fichier à l'aide d'un navigateur Web afin de visualiser son contenu.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GIPC\WebRequestResponse_RegisterRoutesTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="dd5de425-2b33-4e60-95f0-e43d7fe2ce57" testId="c351138d-9da2-95cc-c121-616098169b25" testName="DicoControllerConstructorTest" computerName="GIPC" startTime="2012-10-10T12:29:37.1503906+02:00" endTime="2012-10-10T12:29:37.1669922+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd5de425-2b33-4e60-95f0-e43d7fe2ce57">
+      <Output>
+        <ErrorInfo>
+          <Message>La requête Web 'http://localhost:12400/' s'est achevée correctement sans exécuter le test. Ceci peut se produire lorsque la configuration de l'application Web pour des tests échoue (une erreur de serveur ASP.NET survient lors du traitement de la requête), ou lorsqu'aucune page ASP.NET n'est exécutée (l'URL peut pointer vers une page HTML, un service Web ou une liste de répertoires). L'exécution de tests dans ASP.NET nécessite que l'URL corresponde à une page ASP.NET, et que la page s'exécute correctement jusqu'à l'événement Load. La réponse de la requête est stockée dans le fichier 'WebRequestResponse_DicoControllerConstr.html' avec les résultats des tests ; en principe, il est possible d'ouvrir ce fichier à l'aide d'un navigateur Web afin de visualiser son contenu.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GIPC\WebRequestResponse_DicoControllerConstr.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="0a2dbbd3-6a10-4698-aa04-e90f1716cec7" testId="c790b5f3-181a-1308-6c27-1f3c8f7db761" testName="RouteConfigConstructorTest" computerName="GIPC" startTime="2012-10-10T12:29:37.1748047+02:00" endTime="2012-10-10T12:29:37.1855468+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a2dbbd3-6a10-4698-aa04-e90f1716cec7">
+      <Output>
+        <ErrorInfo>
+          <Message>La requête Web 'http://localhost:12400/' s'est achevée correctement sans exécuter le test. Ceci peut se produire lorsque la configuration de l'application Web pour des tests échoue (une erreur de serveur ASP.NET survient lors du traitement de la requête), ou lorsqu'aucune page ASP.NET n'est exécutée (l'URL peut pointer vers une page HTML, un service Web ou une liste de répertoires). L'exécution de tests dans ASP.NET nécessite que l'URL corresponde à une page ASP.NET, et que la page s'exécute correctement jusqu'à l'événement Load. La réponse de la requête est stockée dans le fichier 'WebRequestResponse_RouteConfigConstruct.html' avec les résultats des tests ; en principe, il est possible d'ouvrir ce fichier à l'aide d'un navigateur Web afin de visualiser son contenu.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GIPC\WebRequestResponse_RouteConfigConstruct.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="0e911227-aa90-4b4f-a163-9abfb148acb9" testId="da2bb424-a18a-c854-03b7-6410d4cd3a66" testName="RegisterTest1" computerName="GIPC" startTime="2012-10-10T12:29:37.1933593+02:00" endTime="2012-10-10T12:29:37.2041015+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e911227-aa90-4b4f-a163-9abfb148acb9">
+      <Output>
+        <ErrorInfo>
+          <Message>La requête Web 'http://localhost:12400/' s'est achevée correctement sans exécuter le test. Ceci peut se produire lorsque la configuration de l'application Web pour des tests échoue (une erreur de serveur ASP.NET survient lors du traitement de la requête), ou lorsqu'aucune page ASP.NET n'est exécutée (l'URL peut pointer vers une page HTML, un service Web ou une liste de répertoires). L'exécution de tests dans ASP.NET nécessite que l'URL corresponde à une page ASP.NET, et que la page s'exécute correctement jusqu'à l'événement Load. La réponse de la requête est stockée dans le fichier 'WebRequestResponse_RegisterTest1.html' avec les résultats des tests ; en principe, il est possible d'ouvrir ce fichier à l'aide d'un navigateur Web afin de visualiser son contenu.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GIPC\WebRequestResponse_RegisterTest1.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="7597bb86-e3c5-4443-8471-8757c49e9eb6" testId="dee595a6-02a5-dc96-34db-4c0136c532db" testName="Default_Action_Returns_Index_View" computerName="GIPC" duration="00:00:00.0019586" startTime="2012-10-10T12:29:37.2119140+02:00" endTime="2012-10-10T12:29:37.2187500+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7597bb86-e3c5-4443-8471-8757c49e9eb6">
+    </UnitTestResult>
+    <UnitTestResult executionId="bad8dc7c-5dea-43ca-9cfb-075a3183eb17" testId="e06b7ae4-0c67-885b-94da-be17dcd7e16b" testName="MvcApplicationConstructorTest" computerName="GIPC" startTime="2012-10-10T12:29:37.2216797+02:00" endTime="2012-10-10T12:29:37.2333984+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bad8dc7c-5dea-43ca-9cfb-075a3183eb17">
+      <Output>
+        <ErrorInfo>
+          <Message>La requête Web 'http://localhost:12400/' s'est achevée correctement sans exécuter le test. Ceci peut se produire lorsque la configuration de l'application Web pour des tests échoue (une erreur de serveur ASP.NET survient lors du traitement de la requête), ou lorsqu'aucune page ASP.NET n'est exécutée (l'URL peut pointer vers une page HTML, un service Web ou une liste de répertoires). L'exécution de tests dans ASP.NET nécessite que l'URL corresponde à une page ASP.NET, et que la page s'exécute correctement jusqu'à l'événement Load. La réponse de la requête est stockée dans le fichier 'WebRequestResponse_MvcApplicationConstr.html' avec les résultats des tests ; en principe, il est possible d'ouvrir ce fichier à l'aide d'un navigateur Web afin de visualiser son contenu.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GIPC\WebRequestResponse_MvcApplicationConstr.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="b2ea42b4-0b91-415e-84f9-27dfae9aef9c" testId="e5854b74-fb0b-bfc4-bb29-b8f65f79ebd4" testName="RegisterRoutesTest1" computerName="GIPC" startTime="2012-10-10T12:29:37.2353515+02:00" endTime="2012-10-10T12:29:37.2675781+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b2ea42b4-0b91-415e-84f9-27dfae9aef9c">
+      <Output>
+        <ErrorInfo>
+          <Message>La requête Web 'http://localhost:12400/' s'est achevée correctement sans exécuter le test. Ceci peut se produire lorsque la configuration de l'application Web pour des tests échoue (une erreur de serveur ASP.NET survient lors du traitement de la requête), ou lorsqu'aucune page ASP.NET n'est exécutée (l'URL peut pointer vers une page HTML, un service Web ou une liste de répertoires). L'exécution de tests dans ASP.NET nécessite que l'URL corresponde à une page ASP.NET, et que la page s'exécute correctement jusqu'à l'événement Load. La réponse de la requête est stockée dans le fichier 'WebRequestResponse_RegisterRoutesTest1.html' avec les résultats des tests ; en principe, il est possible d'ouvrir ce fichier à l'aide d'un navigateur Web afin de visualiser son contenu.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GIPC\WebRequestResponse_RegisterRoutesTest1.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="6fb36129-72b5-4356-8f90-abd36fe2c99c" testId="ebc5f409-4335-6b2f-cb35-1decbaa46fbc" testName="RegisterBundlesTest1" computerName="GIPC" startTime="2012-10-10T12:29:37.2705078+02:00" endTime="2012-10-10T12:29:37.2919922+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6fb36129-72b5-4356-8f90-abd36fe2c99c">
+      <Output>
+        <ErrorInfo>
+          <Message>La requête Web 'http://localhost:12400/' s'est achevée correctement sans exécuter le test. Ceci peut se produire lorsque la configuration de l'application Web pour des tests échoue (une erreur de serveur ASP.NET survient lors du traitement de la requête), ou lorsqu'aucune page ASP.NET n'est exécutée (l'URL peut pointer vers une page HTML, un service Web ou une liste de répertoires). L'exécution de tests dans ASP.NET nécessite que l'URL corresponde à une page ASP.NET, et que la page s'exécute correctement jusqu'à l'événement Load. La réponse de la requête est stockée dans le fichier 'WebRequestResponse_RegisterBundlesTest1.html' avec les résultats des tests ; en principe, il est possible d'ouvrir ce fichier à l'aide d'un navigateur Web afin de visualiser son contenu.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GIPC\WebRequestResponse_RegisterBundlesTest1.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="3f2acb65-7c34-4be0-b11e-7fdbf766730f" testId="f9ec6ea5-5e41-a566-8469-6a8e50b78a57" testName="Application_StartTest" computerName="GIPC" startTime="2012-10-10T12:29:37.2958984+02:00" endTime="2012-10-10T12:29:37.3193359+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f2acb65-7c34-4be0-b11e-7fdbf766730f">
+      <Output>
+        <ErrorInfo>
+          <Message>La requête Web 'http://localhost:12400/' s'est achevée correctement sans exécuter le test. Ceci peut se produire lorsque la configuration de l'application Web pour des tests échoue (une erreur de serveur ASP.NET survient lors du traitement de la requête), ou lorsqu'aucune page ASP.NET n'est exécutée (l'URL peut pointer vers une page HTML, un service Web ou une liste de répertoires). L'exécution de tests dans ASP.NET nécessite que l'URL corresponde à une page ASP.NET, et que la page s'exécute correctement jusqu'à l'événement Load. La réponse de la requête est stockée dans le fichier 'WebRequestResponse_Application_StartTes.html' avec les résultats des tests ; en principe, il est possible d'ouvrir ce fichier à l'aide d'un navigateur Web afin de visualiser son contenu.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="GIPC\WebRequestResponse_Application_StartTes.html" />
+      </ResultFiles>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -137,10 +137,12 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Base\Billet.cs" />
     <Compile Include="Models\Entity\Dotnet\PracticeDotnet.cs" />
     <Compile Include="Models\Entity\Dotnet\ProjectDotnet.cs" />
     <Compile Include="Models\Entity\Dotnet\SnippetDotnet.cs" />
+    <Compile Include="Models\Entity\Language.cs" />
     <Compile Include="Models\Entity\Ruby\PracticeRuby.cs" />
     <Compile Include="Models\Entity\Ruby\ProjectRuby.cs" />
     <Compile Include="Models\Entity\Ruby\SnippetRuby.cs" />
@@ -221,7 +223,9 @@
     <Content Include="Scripts\knockout-2.1.0.js" />
     <Content Include="Scripts\modernizr-2.5.3.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -241,6 +245,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\List.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Create.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
