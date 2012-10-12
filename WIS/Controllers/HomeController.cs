@@ -10,9 +10,6 @@ namespace WIS.Controllers
 {
     public class HomeController : Controller
     {
-        //
-        // GET: /Home/
-        RepoSnippetDotnet repo = new RepoSnippetDotnet(); 
 
         public ActionResult Index()
         {
@@ -20,25 +17,6 @@ namespace WIS.Controllers
             
             return View("Index");
         }
-
-        public ActionResult List()
-        {
-              
-            return View(repo.List());
-        }
-
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public ActionResult Create(SnippetDotnet snippet)
-        {
-            repo.Add(snippet);
-            return RedirectToAction("List");
-        }
-
 
         
     }
